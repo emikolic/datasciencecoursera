@@ -10,8 +10,10 @@ In order to be able to run a run_analysis.R script you have to install the follo
 packages: "data.table" and "reshape2". You can do that by runing the following 
 code in your R console:
 
+```
 install.packages(c("data.table", "reshape2"))
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
+```
 
 # Running the analysis
 After all the previous described steps you should be able to run analysis script,
