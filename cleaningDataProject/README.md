@@ -17,3 +17,6 @@ sapply(packages, require, character.only=TRUE, quietly=TRUE)
 After all the previous described steps you should be able to run analysis script,
 and you should be able to see a txt file "tidyData.txt" in your working directory.
 This txt file contains average of each variable for each activity and each subject.
+
+The run_analysis.R script file is documented, so I don't want to copy/paste the entire 
+code. Just open the script and the comments will explain what the script does.
